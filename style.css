@@ -5,6 +5,31 @@
 	width:100%;
 }
 
+
+.navbar-default {
+	background-color:#000000;
+	height: 50px;
+	
+}
+
+
+
+.navbar-default .navbar-nav > li{
+	padding-left: 55px;
+	
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+	font-weight: bold;
+	
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #999;
+	
+}
+
 .separator {
 	
   
@@ -70,45 +95,22 @@ footer {
 
 
 /**** ---Carousel Slider with thumbnail --- ****/
-
-#carousel-custom {
-    margin: 2% auto;
-    width: 90%;
-	height: 80%;
-}
-#carousel-custom .carousel-indicators {
-    margin: 10px 0 0;
-    overflow: auto;
-    position: static;
-    text-align: left;
-    white-space: nowrap;
-    width: 100%;
+.item {
+	width: 100%;
+	margin: 0 auto;
 }
 
 
-#carousel-custom .carousel-indicators li {
-    background-color: transparent;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-    display: inline-block;
-    height: auto;
-    margin: 0 !important;
-    width: auto;
+#myCarousel .nav a small {
+    display:block;
+	width: 100%;
 }
-#carousel-custom .carousel-indicators li img {
-    display: block;
-    opacity: 0.5;
+#myCarousel .nav {
+    background:#eee;
 }
-#carousel-custom .carousel-indicators li.active img {
-    opacity: 1;
+#myCarousel .nav a {
+    border-radius:0px;
 }
-#carousel-custom .carousel-indicators li:hover img {
-    opacity: 0.75;
-}
-#carousel-custom .carousel-outer {
-    position: relative;
-}
-
 
 /**** --- End of Carousel Slider with Thumbnail --- ****/
 
@@ -242,7 +244,7 @@ span.verify {
 .box {
 	
 	width:25%;
-	height: 300px;
+	height: 260px;
 	background-color: #ffffff;
 	margin:5px auto;
 	
